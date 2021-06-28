@@ -1,6 +1,6 @@
-package com.lasersizer.controller;
+package com.securitytest.controller;
 
-import com.lasersizer.service.UserService;
+import com.securitytest.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

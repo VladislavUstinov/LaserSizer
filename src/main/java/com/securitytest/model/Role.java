@@ -1,4 +1,4 @@
-package com.lasersizer.model;
+package com.securitytest.model;
 
 
 import lombok.Getter;

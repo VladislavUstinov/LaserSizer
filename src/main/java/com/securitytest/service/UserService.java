@@ -1,10 +1,10 @@
-package com.lasersizer.service;
+package com.securitytest.service;
 
 
-import com.lasersizer.repository.RoleRepository;
-import com.lasersizer.repository.UserRepository;
-import com.lasersizer.model.Role;
-import com.lasersizer.model.User;
+import com.securitytest.repository.RoleRepository;
+import com.securitytest.repository.UserRepository;
+import com.securitytest.model.Role;
+import com.securitytest.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -21,7 +21,7 @@ import java.util.Optional;
 
 //import static org.graalvm.compiler.options.OptionType.User;
 
-@ComponentScan("com.lasersizer.repository")
+@ComponentScan("com.securitytest.repository")
 @Service
 public class UserService implements UserDetailsService {
     @PersistenceContext

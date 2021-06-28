@@ -1,7 +1,7 @@
-package com.lasersizer.config;
+package com.securitytest.config;
 
 
-import com.lasersizer.service.UserService;
+import com.securitytest.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-@ComponentScan("com.lasersizer.service")
+@ComponentScan("com.securitytest.service")
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
